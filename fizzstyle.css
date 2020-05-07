@@ -1,0 +1,66 @@
+body {
+	background-color: rgb(230, 230, 232);
+}
+
+h1 {
+	font-family: 'Fira Sans', sans-serif;
+	color: #fce66f;
+	font-weight: 500;
+	font-size: 2rem;
+    text-shadow: -2px -2px 0px #a564f2;
+    letter-spacing: 0.3rem;
+}
+
+h1::after {
+    content: 'Buzz';
+    color: #67a9ee;
+}
+
+section {
+	margin-left: 2rem;
+}
+
+p {
+	color: rgb(230, 230, 232);
+}
+
+#entree {
+	border-radius: 1rem;
+	border: 3px solid #b98cee;
+	margin-right: 1rem;
+	padding: 0.3rem;
+	font-size: 0.9rem;
+}
+
+#entree:focus {
+	border: 3px solid #fce66f;
+}
+
+#sortie {
+	border: none;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 0.6rem;
+	margin-left: 1rem;
+	padding: 0.1rem 0.3rem 0.1rem 0.1rem;
+	font-size: 1.2rem;
+}
+
+#calcul {
+	border-radius: 1rem;
+	border: none;
+	padding: 0.3rem 0.5rem;
+	font-size: 1rem;
+	background-color: #5288ff;
+	color: white;
+}
+
+#genereUneListe {
+	border-radius: 1rem;
+	border: none;
+	padding: 0.5rem 1.5rem 0.4rem 1.5rem;
+	background-color: rgb(253, 253, 253);
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 400;
+	font-size: 0.9rem;
+	margin-top: 1rem;
+}
